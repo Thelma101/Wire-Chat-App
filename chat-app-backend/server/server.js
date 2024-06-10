@@ -19,6 +19,10 @@ socket.on("message", (message) => {
     io.emit("message", message);
 })
 
+mongoose.connect("mongodb://localhost:27017/chat-app", { useNewUrlParser: true, useUnifiedTopology: true }, () => {
+    console.log("MongoDB connected");
+})
+
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
