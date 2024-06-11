@@ -23,7 +23,9 @@ socket.on("message", (message) => {
 //     console.log("MongoDB connected");
 // })
 // mongoose.connect('mongodb://localhost:27017/Tee', { useNewUrlParser: true, useUnifiedTopology: true })
-mongoose.connect('mongodb+srv://coursequesthub:fePziw-bewbaz-5cofme@cluster0.lssixvh.mongodb.net/wire-chat-app', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://coursequesthub:fePziw-bewbaz-5cofme@cluster0.lssixvh.mongodb.net/wire-chat-app', { useNewUrlParser: true, useUnifiedTopology: true }, () => {
+    console.log("MongoDB connected");
+})
 
 mongoose.connect("mongodb://cluster0.lssixvh.mongodb.net/wire-chat-app", { useNewUrlParser: true, useUnifiedTopology: true }, () => {
     console.log("MongoDB connected");
