@@ -27,9 +27,6 @@ mongoose.connect('mongodb+srv://coursequesthub:fePziw-bewbaz-5cofme@cluster0.lss
     console.log("MongoDB connected");
 })
 
-// mongoose.connect("mongodb://cluster0.lssixvh.mongodb.net/wire-chat-app", { useNewUrlParser: true, useUnifiedTopology: true }, () => {
-//     console.log("MongoDB connected");
-//  })
 
 const PORT = process.env.PORT || 7000;
 
