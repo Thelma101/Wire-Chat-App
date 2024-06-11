@@ -1,11 +1,11 @@
 const express = require("express");
-const socket = require("socket.io");
+const socketIo = require("socket.io");
 const http = require("http");
 const mongoose = require("mongoose");
 
 const app = express();
-const server = require("http").createServer(app);
-const io = require("socket.io")(server);
+const server = http.createServer(app);
+const io = socketIo(server);
 
 io.on("connection", (socket) => {
     console.log("New client connected");
