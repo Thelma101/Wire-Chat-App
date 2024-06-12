@@ -27,7 +27,6 @@ mongoose.connect('mongodb+srv://coursequesthub:fePziw-bewbaz-5cofme@cluster0.lss
     console.log("MongoDB connected");
 })
 
-
 const PORT = process.env.PORT || 7000;
 
 server.listen(PORT, () => {
