@@ -22,7 +22,7 @@ io.on("connection", (socket) => {
 
 const connectToDatabase = async () => {
     try {
-        await mongoose.connect("mongodb://cluster0.lssixvh.mongodb.net/wire-chat-app", { useNewUrlParser: true, useUnifiedTopology: true });
+        await mongoose.connect("mongodb://cluster0.lssixvh.mongodb.net/wire-chat-app");
         console.log("MongoDB connected");
     } catch (err) {
         console.error("MongoDB connection error:", err);
