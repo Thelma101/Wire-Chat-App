@@ -44,6 +44,8 @@ const socketIo = require("socket.io");
 // const mongoose = require("mongoose");
 
 
+const app = express();
+const port = 4000;
 const server = http.createServer();
 const io = socketIo(server);
 
