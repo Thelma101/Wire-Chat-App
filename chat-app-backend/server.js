@@ -41,14 +41,12 @@
 const express = require("express");
 const http = require("http");
 const socketIo = require("socket.io");
-const mongoose = require("mongoose");
+// const mongoose = require("mongoose");
 
 
 const server = http.createServer();
 const io = socketIo(server);
 
-const app = express();
-const port = 4000;
 
 app.get('/', (req, res) => {
     res.sendFile(`__dirname + '/index.html'`)
