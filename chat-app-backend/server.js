@@ -56,7 +56,7 @@ socket.on ("disconnect", () => {
     console.log("User disconnected");
 });
 
-socket.on("Message", (message) => {
+socket.on("message", (message) => {
     io.emit ("message", message)
     console.log("New message: " + message);
 });
