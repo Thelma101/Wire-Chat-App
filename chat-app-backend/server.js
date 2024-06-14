@@ -51,10 +51,15 @@ const io = socketIo(server);
 
 io.on ("connection", (socket) => {
     console.log("New user connected");
-})
+});
 
 socket.on ("Disconnection", () => {
     console.log("User disconnected");
+});
+
+socket.on("Message", (message) => {
+    io.emit (message)
+    console.log("New message: " + message);
 })
 
 app.get('/', (req, res) => {
