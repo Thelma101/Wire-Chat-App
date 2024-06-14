@@ -46,7 +46,7 @@ const socketIo = require("socket.io");
 
 const app = express();
 const port = 4000;
-const server = http.createServer();
+const server = http.createServer(app);
 const io = socketIo(server);
 
 
