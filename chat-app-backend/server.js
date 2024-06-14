@@ -51,7 +51,6 @@ const io = socket(server);
 
 io.on ("connection", (socket) => {
     console.log("New user connected");
-});
 
 socket.on ("Disconnect", () => {
     console.log("User disconnected");
@@ -64,6 +63,7 @@ socket.on("Message", (message) => {
 
 app.get('/', (req, res) => {
     res.sendFile(`__dirname + '/index.html'`)
+});
 });
 
 app.listen(port, () => {
