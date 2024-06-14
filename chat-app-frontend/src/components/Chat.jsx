@@ -1,6 +1,4 @@
-const React = require("react");
-const socket = require("socket.io-client");
-const http = require("http");
+import React from "react";
 
 const Chat = () => {
     const [messages, setMessages] = React.useState([]);
