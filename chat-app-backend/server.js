@@ -40,27 +40,27 @@
 
 const express = require("express");
 const http = require("http");
-const socketIo = require("socket.io");
+const socket = require("socket.io");
 // const mongoose = require("mongoose");
 
 
 const app = express();
 const port = 4000;
 const server = http.createServer(app);
-const io = socketIo(server);
+const io = socket(server);
 
 io.on ("connection", (socket) => {
     console.log("New user connected");
 });
 
-socket.on ("Disconnection", () => {
+socket.on ("Disconnect", () => {
     console.log("User disconnected");
 });
 
 socket.on("Message", (message) => {
     io.emit ("message", message)
     console.log("New message: " + message);
-})
+});
 
 app.get('/', (req, res) => {
     res.sendFile(`__dirname + '/index.html'`)
