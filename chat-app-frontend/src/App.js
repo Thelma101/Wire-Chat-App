@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import socketIoClient from 'socket.io-client';
-import Chat from './Chat';
+import Chat from './components/Chat';
 
 function App() {
   return (
