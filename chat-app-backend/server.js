@@ -49,6 +49,7 @@ const port = 4000;
 const server = http.createServer(app);
 const io = socketIo(server);
 
+io.on 
 
 app.get('/', (req, res) => {
     res.sendFile(`__dirname + '/index.html'`)
