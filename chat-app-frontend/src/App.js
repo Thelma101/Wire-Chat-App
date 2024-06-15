@@ -12,7 +12,7 @@ function App() {
       // setMessages([...messages, message]);
       setMessages((prevMessages) => [...prevMessages, message]);
     });
-  })
+  });
 
   return (
     <div className="App">
