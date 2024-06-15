@@ -10,6 +10,7 @@ function App() {
   useEffect (() => {
     socket.on("message", (message) => {
       // setMessages([...messages, message]);
+      setMessages((prevMessages) => [...prevMessages, message]);
     })
   })
 
