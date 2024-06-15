@@ -11,7 +11,7 @@ function App() {
     socket.on("message", (message) => {
       // setMessages([...messages, message]);
       setMessages((prevMessages) => [...prevMessages, message]);
-    })
+    });
   })
 
   return (
