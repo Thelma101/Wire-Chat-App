@@ -8,7 +8,9 @@ function App() {
   const [input, setInput] = useState('');
 
   useEffect (() => {
-    
+    socket.on("message", (message) => {
+      setMessages([...messages, message]);
+    })
   })
 
   return (
