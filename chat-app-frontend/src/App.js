@@ -16,7 +16,8 @@ function App() {
 
   return () => {
     socket.off('message');
-  }
+  };
+  
 
   return (
     <div className="App">
