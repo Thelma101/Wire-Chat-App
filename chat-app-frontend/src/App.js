@@ -12,6 +12,10 @@ function App() {
       // setMessages([...messages, message]);
       setMessages((prevMessages) => [...prevMessages, message]);
     });
+
+    return () => {
+      socket.off("message");
+    };
   });
 
 
