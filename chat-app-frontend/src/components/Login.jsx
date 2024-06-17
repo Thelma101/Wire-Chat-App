@@ -1,10 +1,13 @@
 function digitalRoot(n) {
     if (n < 10) {
-        return n;
+        
+       const i = n.toString().split('').map(Number);
+        // return n;
+        return i;
     }
-    return digitalRoot(
-        n.toString().split('').map(Number);
-    )
-        n
+    else {
+        
+    }
+    
 }
 console.log(digitalRoot(166));
