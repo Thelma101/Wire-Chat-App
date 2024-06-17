@@ -3,7 +3,8 @@ function digitalRoot(n) {
         return n;
     }
     return digitalRoot(
-        n.toString().split('').reduce((acc, val) => acc + parseInt(val), 0)
+        n.toString().split('').map(Number);
     )
+        n
 }
-console.log(digitalRoot(166), 7);
+console.log(digitalRoot(166));
