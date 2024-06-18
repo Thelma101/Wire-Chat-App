@@ -14,7 +14,8 @@
 function ifChuckNorrisSaysSo() {
     return !true;
 }
-ifChuckNorrisSaysSo();
+// ifChuckNorrisSaysSo();
+console.log(ifChuckNorrisSaysSo());
 
 function isPrime(num) {
     for (let i = 2, s = Math.sqrt(num); i <= s; i++) {
