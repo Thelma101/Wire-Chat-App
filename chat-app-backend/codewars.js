@@ -23,5 +23,5 @@ function isPrime(num) {
     return num > 1;
 }
 
-return isPrime(28);
+// return isPrime(28);
 console.log(isPrime(28));
