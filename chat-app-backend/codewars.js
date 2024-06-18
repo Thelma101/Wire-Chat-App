@@ -24,4 +24,4 @@ function isPrime(num) {
 }
 
 // return isPrime(28);
-console.log(isPrime(28));
+console.log(isPrime(2));
