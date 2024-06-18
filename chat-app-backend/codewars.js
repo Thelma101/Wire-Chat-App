@@ -27,3 +27,14 @@
 // return isPrime(28);
 // console.log(isPrime(2));
 
+// list prime numbers
+function listPrimeNumbers(start, end) {
+    let primes = [];
+    for (let i = start; i <= end; i++) {
+        if (isPrime(i)) {
+            primes.push(i);
+        }
+    }
+    return primes;
+}
+console.log(listPrimeNumbers(7, 100));
