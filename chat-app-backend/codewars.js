@@ -39,5 +39,4 @@ function listPrimeNumbers(primeNum) {
     if (primeNum % i == 0);
 }
 console.log(isPrime(99))
-}
 };
