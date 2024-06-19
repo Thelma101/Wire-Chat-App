@@ -36,6 +36,5 @@ return isPrime(28);
 
 function listPrimeNumbers(primeNum) {
     for (i = 2, s = Math.sqrt(primeNum); i <= s; i++ ) {}
-    if ()
-}
+    if (i  % i == 0 );
 }
