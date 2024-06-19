@@ -1,10 +1,10 @@
 // function digitalRoot(n) {
 //     if (n >= 10) {
-        
+
 //        const i = n.toString().split('').map(Number);
 //         n = i.reduce((num, acc) => num + acc, 0);   
 //         return digitalRoot(n);
-        
+
 //       }
 //       return n;
 // }
@@ -35,6 +35,7 @@ return isPrime(28);
 // }
 
 function listPrimeNumbers(primeNum) {
-    for (i = 2, s = Math.sqrt(primeNum); i <= s; i++ ) {}
-    if (i  % i == 0 );
+    for (i = 2, s = Math.sqrt(primeNum); i <= s; i++) { }
+    if (i % i == 0);
+    console.log("false");
 }
