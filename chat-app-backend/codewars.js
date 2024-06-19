@@ -28,8 +28,13 @@ return isPrime(28);
 // console.log(isPrime(2));
 
 // list prime numbers
+// function listPrimeNumbers(primeNum) {
+//     for (i = 2, s = Math.sqrt(primeNum); i <= s; i++) {
+//         if (primeNum % i ==0 ) 
+//     }
+// }
+
 function listPrimeNumbers(primeNum) {
-    for (i = 2, s = Math.sqrt(primeNum); i <= s; i++) {
-        if (primeNum % i ==0 ) 
-    }
+    s = Math.sqrt(primeNum);
+    if 
 }
