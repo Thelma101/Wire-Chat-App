@@ -29,5 +29,7 @@ return isPrime(28);
 
 // list prime numbers
 function listPrimeNumbers(primeNum) {
-    for (i = 2, s = Math.sqrt())
+    for (i = 2, s = Math.sqrt(primeNum); i <= s; i++) {
+        if (primeNum % i ==0 ) 
+    }
 }
