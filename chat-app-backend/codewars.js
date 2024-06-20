@@ -45,6 +45,7 @@
 // // console.log(listPrimeNumbers(99));
 
 
+// square each num 
 function squareDigits(num){
    const digit = num.toString().split('').map(Number);
     // return 0;
