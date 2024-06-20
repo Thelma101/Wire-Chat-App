@@ -58,6 +58,15 @@
 
 // convert dash/underscore into camel casing. 
 function toCamelCase(str) {
-     
+    
+    const arr = str.split(/[-_]/);
+    const newArr = arr.map((word, index) => {
+        if (index === 0) {
+            return word;
+        } else {
+            return word.charAt(0).toUpperCase() + word.slice(1);
+        }
+    });
+    return newArr.join('');
 }
   
