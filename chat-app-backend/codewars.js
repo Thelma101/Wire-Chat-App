@@ -51,6 +51,7 @@ function squareDigits(num){
     for (i = 0; i < digit.length; i++) {
         digit[i] = digit[i] ** 2;
     }
+    return digit.join('');
 }
-    console.log(digit[i]);
+    console.log(squareDigits (80));
   
