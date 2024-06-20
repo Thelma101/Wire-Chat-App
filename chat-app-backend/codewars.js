@@ -36,7 +36,8 @@
 
 function listPrimeNumbers(primeNum) {
     for (i = 2, s = Math.sqrt(primeNum); i <= s; i++) { 
-    if (primeNum % i == 0);
+        if (primeNum % i == 0)
+            return primeNum;
 }
 console.log(listPrimeNumbers(99))
 };
