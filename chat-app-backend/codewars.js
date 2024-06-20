@@ -49,6 +49,7 @@ function squareDigits(num){
    const digit = num.toString().split('').map(Number);
     // return 0;
     for (i = 0; i < digit.length; i++) {
-        digit[i]
+        digit[i] = digit[i] ** 2;
     }
+    console.log(digit[i]);
   }
