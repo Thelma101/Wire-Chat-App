@@ -46,6 +46,9 @@
 
 
 function squareDigits(num){
-   const digit = 
-    return 0;
+   const digit = num.toString().split('').map(Number);
+    // return 0;
+    for (i = 0; i < digit.length; i++) {
+        digit[i]
+    }
   }
