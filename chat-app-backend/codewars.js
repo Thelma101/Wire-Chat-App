@@ -46,13 +46,18 @@
 
 
 // ---- square each num and concatenate the result ----
-function squareDigits(num){
-   const digit = num.toString().split('').map(Number);
-    // return 0;
-    for (i = 0; i < digit.length; i++) {
-        digit[i] = digit[i] ** 2;
-    }
-    return digit.join('');
+// function squareDigits(num){
+//    const digit = num.toString().split('').map(Number);
+//     // return 0;
+//     for (i = 0; i < digit.length; i++) {
+//         digit[i] = digit[i] ** 2;
+//     }
+//     return digit.join('');
+// }
+//     console.log(squareDigits (809));
+
+// convert dash/underscore into camel casing. 
+function toCamelCase(str) {
+    
 }
-    console.log(squareDigits (809));
   
