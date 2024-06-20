@@ -58,6 +58,6 @@
 
 // convert dash/underscore into camel casing. 
 function toCamelCase(str) {
-    
+     
 }
   
