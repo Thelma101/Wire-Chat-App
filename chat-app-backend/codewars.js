@@ -57,15 +57,18 @@
 //     console.log(squareDigits (809));
 
 // convert dash/underscore into camel casing. 
-function toCamelCase(stringWord) {
-    const arr = stringWord.split(/[-_]/);
-    const newArr = arr.map((word, index) => {
-        if (index === 0) {
-            return word;
-        } else {
-            return word.charAt(0).toUpperCase() + word.slice(1);
-        }
-    });
-    return newArr.join('');
-}
+// function toCamelCase(stringWord) {
+//     const arr = stringWord.split(/[-_]/);
+//     const newArr = arr.map((word, index) => {
+//         if (index === 0) {
+//             return word;
+//         } else {
+//             return word.charAt(0).toUpperCase() + word.slice(1);
+//         }
+//     });
+//     return newArr.join('');
+// }
   
+
+const slicedArr = [1, 2, 3, 4, 5];
+const slicedArr2 = slicedArr.slice(1, 4);
