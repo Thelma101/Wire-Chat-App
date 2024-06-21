@@ -71,4 +71,7 @@
   
 
 const slicedArr = [1, 2, 3, 4, 5];
-const slicedArr2 = slicedArr.slice(1, 4);
+const slicedArr2 = slicedArr.slice(1, 5, 90, 30);
+console.log(slicedArr2);
+
+// const 
