@@ -76,6 +76,6 @@
 
 const reduceArr = [30, 5, 2, 71];
 const reduceArr2 = reduceArr.reduce((a, b) =>
-    a + b, 0;
+    a + b, 0
 );
 console.log(reduceArr2);
