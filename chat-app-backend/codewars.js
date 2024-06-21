@@ -57,9 +57,8 @@
 //     console.log(squareDigits (809));
 
 // convert dash/underscore into camel casing. 
-function toCamelCase(str) {
-    
-    const arr = str.split(/[-_]/);
+function toCamelCase(stringWord) {
+    const arr = stringWord.split(/[-_]/);
     const newArr = arr.map((word, index) => {
         if (index === 0) {
             return word;
