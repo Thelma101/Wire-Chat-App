@@ -68,10 +68,14 @@
 //     });
 //     return newArr.join('');
 // }
-  
 
-const slicedArr = [1, 2, 3, 4, 5];
-const slicedArr2 = slicedArr.slice(1, 5, 90, 30);
-console.log(slicedArr2);
 
-// const 
+// const slicedArr = [1, 2, 3, 4, 5];
+// const slicedArr2 = slicedArr.slice(1, 5, 90, 30);
+// console.log(slicedArr2);
+
+const reduceArr = [30, 5, 2, 71];
+const reduceArr2 = reduceArr.reduce((a, b) =>
+    a + b, 0;
+);
+console.log(reduceArr2);
