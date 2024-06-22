@@ -102,14 +102,17 @@
 // const arr2 = arr.reduce((a,b) => a + b, 0 );
 // console.log(arr2);
 
-
+// spread operator
 // let arr = [2, "bob", 90, "hi"]
 // let [x, y, ...z] = arr;
 // console.log(x,y,z);
 
-// swapping array
-let firstName = 'tee';
-let lastName = 'jay';
-let fullName =  [lastName, firstName]
-console.log(fullName)
+// // swapping array
+// let firstName = 'tee';
+// let lastName = 'jay';
+// // let fullName =  [lastName, firstName] -- correct syntax also
+// [firstName, lastName] = [lastName, firstName];
+// console.log(firstName)
+// console.log(lastName)
 
+// 
