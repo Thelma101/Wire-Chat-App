@@ -176,7 +176,16 @@
 // console.log(greet({firstName:'tee', lastName:'Jay'}));
 
 // Calculating the Average of Three Numbers
-function ave(a,b,c) {
-    return Math.min = ave
+
+// minumun of 3 numbers
+// function ave(a,b,c) {
+//     return Math.min(a,b,c)
+// }
+// console.log(ave(30,10,8));
+
+// maximum number fetch
+function max({a,b,c}) {
+    return Math.max(a,b,c)
+    
 }
-console.log(ave({a:30,b:10,c:8}));
+console.log(max({a:44,b:55,c:77}));
