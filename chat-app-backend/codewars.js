@@ -97,3 +97,7 @@
 //
 // })
 
+const arr = arr[2,4,6,8]
+const arr2 = arr.reduce((a,b) ={
+    l
+}) 
