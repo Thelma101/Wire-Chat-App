@@ -173,9 +173,4 @@
 function greet({firstName, lastName}) {
     return `Hello ${firstName}, kindly confirm if your surname is ${lastName}`;
 }
-console.log(greet({firstName:'tee'}, {lastName:'Jay'}));
-
-function greet({firstName, lastName}) {
-    return `Hello, ${firstName} ${lastName}!`;
-}
-console.log(greet({firstName: 'John', lastName: 'Doe'})); // Output: Hello, John Doe!
+console.log(greet({firstName:'tee', lastName:'Jay'}));
