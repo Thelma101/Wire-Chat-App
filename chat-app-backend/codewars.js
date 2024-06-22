@@ -105,5 +105,4 @@
 
 let arr = [2, "bob", 90, "hi"]
 let {x, y, ...z} = arr;
-// console.log(x,y,z)
-console.log[arr];
+console.log(x,y,z)
