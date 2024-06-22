@@ -176,7 +176,7 @@
 // console.log(greet({firstName:'tee', lastName:'Jay'}));
 
 // Calculating the Average of Three Numbers
-function ave({a,b,c}) {
-    return Math.min() = ave
+function ave(a,b,c) {
+    return Math.min = ave
 }
-console.log(ave{a:30,b:10,c:8});
+console.log(ave({a:30,b:10,c:8}));
