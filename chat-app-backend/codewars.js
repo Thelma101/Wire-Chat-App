@@ -115,4 +115,16 @@
 // console.log(firstName)
 // console.log(lastName)
 
-// 
+// nested object destructuring
+let person = {
+    name: 'bob',
+    age: 30,
+    location: {
+        city: 'new york',
+        temp: 90
+    }
+}
+
+let {name: firstName = 'anonymous', age} = person;
+console.log(`${firstName} is ${age}`);
+
