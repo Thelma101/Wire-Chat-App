@@ -117,7 +117,10 @@
 
 // nested object destructuring
 let person = {
-    name: 'bob',
+    name: {
+        firstName: 'tee',
+        lastName: 'jay'
+    },
     age: 30,
     location: {
         city: 'new york',
@@ -125,6 +128,5 @@ let person = {
     }
 }
 
-let {name: firstName = 'anonymous', age} = person;
-console.log(`${firstName} is ${age}`);
+let  
 
