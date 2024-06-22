@@ -103,6 +103,8 @@
 // console.log(arr2);
 
 
-let arr = [2, "bob", 90, "hi"]
-let {x, y, ...z} = arr;
-console.log(x,y,z)
+// let arr = [2, "bob", 90, "hi"]
+// let [x, y, ...z] = arr;
+// console.log(x,y,z);
+
+
