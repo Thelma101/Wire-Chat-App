@@ -82,7 +82,7 @@
 // // 108 result
 
 // const reduceArr3 = reduceArr.reduce((a, b) => {
-    
+
 //     return a + b;
 // }, 0);
 // console.log(reduceArr3);
@@ -140,23 +140,24 @@
 // console.log(getStats({max:40, min:30}));
 
 // sum to or more numbers
-    // function sum({a,b,c}) {
-    //     return a+b+c
-    // }
-    // console.log(sum({a:3,b:4,c:5}));
+// function sum({a,b,c}) {
+//     return a+b+c
+// }
+// console.log(sum({a:3,b:4,c:5}));
 
-    // function subtract({x,y,z})  {
-    //     return 15-3-2
-    // }
-    // console.log(sustract({x:90,y:20,z:30}));
+// function subtract({x,y,z})  {
+//     return 15-3-2
+// }
+// console.log(sustract({x:90,y:20,z:30}));
 
-    // area of a triangle  -correct also - destructured
-    // function area({width, height}) {
-    //     return width * height / 2;
-    // }
-    // console.log(area({width:3,height:4}));
-    
-    // function area(width, height) {
-    //     return width * height / 2
-    // }
-    // console.log(area(50,3));
+// area of a triangle  -correct also - destructured
+function area({ width, height }) {
+    { width, height } = area
+    return width * height / 2;
+}
+console.log(area({ width: 3, height: 4 }));
+
+// function area(width, height) {
+//     return width * height / 2
+// }
+// console.log(area(50,3));
