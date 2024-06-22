@@ -171,6 +171,6 @@
 // console.log(person('hey, how you doing?'));
 
 function greet({firstName, lastName}) {
-    return `Hello ${firstName}, kindly confirm if your surname is ${lastName}`
+    return `Hello ${firstName}, kindly confirm if your surname is ${lastName}`;
 }
 console.log(greet({firstName:'tee'}, {lastName:'Jay'}));
