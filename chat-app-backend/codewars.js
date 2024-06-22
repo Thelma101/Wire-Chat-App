@@ -80,3 +80,20 @@
 // );
 // console.log(reduceArr2);
 // // 108 result
+
+// const reduceArr3 = reduceArr.reduce((a, b) => {
+    
+//     return a + b;
+// }, 0);
+// console.log(reduceArr3);
+
+// const reduceArr4 = reduceArr.reduce((a, b) => {
+//     return a + b;
+// }, 0);
+// console.log(reduceArr4);
+
+// const reduceArr5 = reduceArr.reduce((a, b) => {
+//     return a + b;
+//
+// })
+
