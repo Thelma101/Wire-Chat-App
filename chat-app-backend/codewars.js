@@ -115,18 +115,39 @@
 // console.log(firstName)
 // console.log(lastName)
 
-// nested object destructuring
-let person = {
-    name: {
-        firstName: 'tee',
-        lastName: 'jay'
-    },
-    age: 30,
-    location: {
-        city: 'new york',
-        temp: 90
-    }
-}
+// ---- nested object destructuring -------
+// let person = {
+//     name: {
+//         firstName: 'tee',
+//         lastName: 'jay'
+//     },
+//     age: 30,
+//     location: {
+//         city: 'new york',
+//         temp: 90
+//     }
+// }
 
-let {name : {firstName, lastName}, age, location:{temp, city}} = person;
+// let {name : {firstName, lastName}, name, age, location, location:{temp, city}} = person;
+// console.log(name, age, location);
 
+// funtional argument destructuring
+
+// find the average of 2 numbers
+// function getStats({max, min}) {
+//     return (max + min) / 2;
+// }
+// console.log(getStats({max:40, min:30}));
+
+// sum to or more numbers
+    // function sum({a,b,c}) {
+    //     return a+b+c
+    // }
+    // console.log(sum({a:3,b:4,c:5}));
+
+    // function subtract({x,y,z})  {
+    //     return 15-3-2
+    // }
+    // console.log(sustract({x:90,y:20,z:30}));
+
+    // 
