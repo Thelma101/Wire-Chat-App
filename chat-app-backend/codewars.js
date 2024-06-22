@@ -108,3 +108,6 @@
 // console.log(x,y,z);
 
 
+let arr = {firstName = 'tee', lastName = 'jay'}
+let {firstName, lastName} = {lastName, firstName}
+console.log[arr]
