@@ -110,4 +110,5 @@
 
 let arr = {firstName : 'tee', lastName : 'jay'}
 let {firstName, lastName} = {lastName, firstName}
-console.log[arr]
+console.log(arr)
+
