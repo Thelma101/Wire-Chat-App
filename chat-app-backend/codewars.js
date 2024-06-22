@@ -128,5 +128,5 @@ let person = {
     }
 }
 
-let {{name: {firstName, lastName}}, age, {location: {temp, city}} }
+let {name : {firstName, lastName}, age, location:{temp, city}} = person;
 
