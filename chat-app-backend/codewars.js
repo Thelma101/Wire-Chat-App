@@ -162,3 +162,4 @@
 //     return width * height / 2
 // }
 // console.log(area(50,3));
+
