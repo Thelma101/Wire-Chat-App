@@ -107,9 +107,9 @@
 // let [x, y, ...z] = arr;
 // console.log(x,y,z);
 
-
+// swapping array
 let firstName = 'tee';
 let lastName = 'jay';
-let fullName =  [firstName, lastName] = [lastName, firstName]
+let fullName =  [lastName, firstName]
 console.log(fullName)
 
