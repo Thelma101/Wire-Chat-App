@@ -97,6 +97,13 @@
 //
 // })
 
-const arr = [2,4,6,8]
-const arr2 = arr.reduce((a,b) => a + b, 0 );
-console.log(arr2);
+// Calculate the sum of an array:
+// const arr = [2,4,6,8]
+// const arr2 = arr.reduce((a,b) => a + b, 0 );
+// console.log(arr2);
+
+
+let arr = [2, "bob", 90, "hi"]
+let {x, y, ...z} = arr;
+// console.log(x,y,z)
+console.log[arr];
