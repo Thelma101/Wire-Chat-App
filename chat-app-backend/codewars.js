@@ -108,7 +108,8 @@
 // console.log(x,y,z);
 
 
-let arr = {firstName : 'tee', lastName : 'jay'}
-let {firstName, lastName} = {lastName, firstName}
-console.log(arr)
+let firstName = 'tee';
+let lastName = 'jay';
+let fullName =  [firstName, lastName] = [lastName, firstName]
+console.log(fullName)
 
