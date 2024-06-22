@@ -170,7 +170,9 @@
 // }
 // console.log(person('hey, how you doing?'));
 
-function greet({firstName, lastName}) {
-    return `Hello ${firstName}, kindly confirm if your surname is ${lastName}`;
-}
-console.log(greet({firstName:'tee', lastName:'Jay'}));
+// function greet({firstName, lastName}) {
+//     return `Hello ${firstName}, kindly confirm if your surname is ${lastName}`;
+// }
+// console.log(greet({firstName:'tee', lastName:'Jay'}));
+
+// Calculating the Average of Three Numbers
