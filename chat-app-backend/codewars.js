@@ -150,4 +150,8 @@
     // }
     // console.log(sustract({x:90,y:20,z:30}));
 
-    // 
+    // area of a triangle
+    function area({width, height}) {
+        return width * height / 2;
+    }
+    console.log(area(3,4));
