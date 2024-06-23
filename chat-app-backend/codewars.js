@@ -218,7 +218,7 @@
 // console.log(aveNum({x:2,y:3,z:4}));
 
 // Creating a Full Name
-const fullName = () => {
+const fullName = ({firstName, lastName}) => {
     return `${firstName} ${lastName}`
 }
 console.log(fullName({firstName:'tee', lastName:'Jay'}));
