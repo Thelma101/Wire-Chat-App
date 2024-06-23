@@ -202,3 +202,7 @@
 //     return (2 * (l + b))
 // }
 // console.log(perimeter({l:40, b:30}));
+
+function aveNum(numbers) {
+    return 
+}
