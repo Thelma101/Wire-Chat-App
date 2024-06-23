@@ -205,5 +205,6 @@
 
 // average of 3 numbers
 function aveNum(numbers) {
-    return 
+    return numbers.reduce((a,b) => a + b, 0) / numbers.length;
+
 }
