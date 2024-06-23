@@ -204,8 +204,9 @@
 // console.log(perimeter({l:40, b:30}));
 
 // average of 3 numbers
-function aveNum(numbers) {
-    return numbers.reduce((a, b) => a + b, 0) / numbers.length;
+// function aveNum(numbers) {
+//     return numbers.reduce((a, b) => a + b, 0) / numbers.length;
 
-}
-console.log(aveNum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+// }
+// console.log(aveNum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+
