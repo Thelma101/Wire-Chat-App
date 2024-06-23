@@ -184,8 +184,21 @@
 // console.log(ave(30,10,8));
 
 // maximum number fetch
-function max({a,b,c}) {
-    return Math.max(a,b,c)
+// function max({a,b,c}) {
+//     return Math.max(a,b,c)
     
-}
-console.log(max({a:44,b:55,c:77}));
+// }
+// console.log(max({a:44,b:55,c:77}));
+
+// parameter of a rectangle
+// function perimeter(rectangle) {
+//     let {l, b} = rectangle
+//     return l * b
+// }
+// console.log(perimeter({l:40, b:10}));
+
+// another method (parameter of a rectangle)
+// function perimeter ({l,b}) {
+//     return (2 * (l + b))
+// }
+// console.log(perimeter({l:40, b:30}));
