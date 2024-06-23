@@ -203,6 +203,7 @@
 // }
 // console.log(perimeter({l:40, b:30}));
 
+// average of 3 numbers
 function aveNum(numbers) {
     return 
 }
