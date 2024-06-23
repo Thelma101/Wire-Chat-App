@@ -211,11 +211,10 @@
 // console.log(aveNum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 
 // 2:
-// const aveNum = ({numbers}) => {
-//     const num = {x+y+z} / 3
-//     return num;
+// const aveNum = ({x,y,z}) => {
+//   return x+y+z / aveNum.length 
 // }
-// console.log(aveNum({x:2,y:3,z:4}));
+// console.log(aveNum({x:12,y:30,z:4}));
 
 // Creating a Full Name
 // const fullName = ({firstName, lastName}) => {
@@ -223,7 +222,8 @@
 // }
 // console.log(fullName({firstName:'tee', lastName:'Jay'}));
 // 2:
-function  fullName({firstName, lastName}) {
-  return `${firstName } ${lastName}`
-} 
-console.log(fullName({firstName:'tee', lastName:'Jay'}));
+// function  fullName({firstName, lastName}) {
+//   return `${firstName } ${lastName}`
+// } 
+// console.log(fullName({firstName:'tee', lastName:'Jay'}));
+
