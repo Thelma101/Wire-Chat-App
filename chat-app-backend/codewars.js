@@ -210,3 +210,16 @@
 // }
 // console.log(aveNum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 
+// 2:
+// const aveNum = ({numbers}) => {
+//     const num = {x+y+z} / 3
+//     return num;
+// }
+// console.log(aveNum({x:2,y:3,z:4}));
+
+// Creating a Full Name
+const fullName = () => {
+    const fullName2 = `${firstName} ${lastName}`
+    return fullName2
+}
+console.log(fullName({fullName2));
