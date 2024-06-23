@@ -186,7 +186,7 @@
 // maximum number fetch
 // function max({a,b,c}) {
 //     return Math.max(a,b,c)
-    
+
 // }
 // console.log(max({a:44,b:55,c:77}));
 
@@ -205,6 +205,7 @@
 
 // average of 3 numbers
 function aveNum(numbers) {
-    return numbers.reduce((a,b) => a + b, 0) / numbers.length;
+    return numbers.reduce((a, b) => a + b, 0) / numbers.length;
 
 }
+console.log(numbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
