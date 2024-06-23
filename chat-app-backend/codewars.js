@@ -219,7 +219,12 @@
 
 // Creating a Full Name
 const fullName = () => {
-    const fullName2 = `${firstName} ${lastName}`
-    return fullName2
+    return `${firstName} ${lastName}`
 }
-console.log(fullName({fullName2));
+console.log(fullName({firstName:'tee', lastName:'Jay'}));
+
+// 2:
+const fullName2 = ({firstName, lastName}) => {
+    return `${firstName} ${lastName}`
+}
+console.log(fullName2({firstName:'tee', lastName:'Jay'}));
