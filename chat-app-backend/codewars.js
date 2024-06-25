@@ -231,8 +231,13 @@
 let arr1 = [2,4,6,8,0,22,46]
 let arr2 = [12,4,51,27,22,90]
 
-let arr = arr1.push(1[19])
-// let arr = arr1.concat([arr2])
+arr1.push(19)
+// arr2.splice(4,1)
+    arr2.push(10)
 
-console.log([arr]);
+let arr = arr1.concat([arr2])
+
+console.log(arr);
+console.log(arr1);
+console.log(arr2);
 
