@@ -231,9 +231,9 @@
 let arr1 = [2,4,6,8,0,22,46]
 let arr2 = [12,4,51,27,22,90]
 
-arr1.push(19)
+arr1.push(10)
 // arr2.splice(4,1)
-    arr2.push(10)
+    arr1.pop()
 
 let arr = arr1.concat([arr2])
 
