@@ -234,12 +234,11 @@
 // arr1.push(10)
 // // arr2.splice(4,1)
 //     arr1.pop()
-
 // let arr = arr1.concat([arr2])
-
 // console.log(arr);
 // console.log(arr1);
 // console.log(arr2);
+
 
 
 
